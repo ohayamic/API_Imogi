@@ -1,0 +1,25 @@
+{% extends "_base.html" %}
+<!-- Add the title to the home page-->
+{% block title %}
+<p>Home Page</p>
+{% endblock title %}
+
+<!-- Add the title to the content to the page-->
+{% block content %}
+
+<div class = "wrapper">
+  <h2>Search GIFs</h2>
+  <hr><br>
+  <form method="POST" action="/">
+    {{ form.csrf_token }}
+    {{ form.searchterm(size=20) }}
+    <input type="submit" value="Search">
+    <!--<div>
+      {% for auto in autocomplete %}
+      <button>"{{auto}}"</button> 
+      {% endfor %}
+    </div>-->
+</form>
+</div>
+
+{% endblock content %}

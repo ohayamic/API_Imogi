@@ -1,0 +1,19 @@
+{% extends "_base.html" %}
+<!-- Add the title to the result page-->
+{% block title %} 
+<p>Search Page</p>
+{% endblock title %}
+
+<!-- Add the title to the content of the main page-->
+{% block content %}
+<div class="body-content">a
+  <div>
+    <h2>Search results for "{{ query }}"</h2>
+    <hr><br>
+    {%for result in results %}
+    <img src="{{result}}" alt="result" width="150" height="150">
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
