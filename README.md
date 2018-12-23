@@ -12,6 +12,7 @@ From the terminal run the following commands
 - This will give you a directory named ```imogi``` that is a clone of your remote ```API_Imogi_Site ``` repository.
 - Then ```cd imogi``` to enter into the directory just created
 - Then run ```vangrant up```
+- When **vagrant up** is ran, it installs all the libraries needed for the application to run
 
 Once it is up and running, type ```vagrant ssh```. This will log your terminal into the virtual machine, and you'll get a Linux
 shell prompt. When you want to log out, type ```exit``` at the shell prompt. To turn the virtual machine off (without deleting
