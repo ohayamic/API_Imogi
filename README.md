@@ -1,7 +1,7 @@
 # API_Imogi
 
 Common code for the Relational Databases and Full Stack Fundamentals courses
-# Step 1
+## Step 1
 ## Setting Up
 Follow the instructions on installing Git, VirtualBox and Vagrant on your respective system.Some helpful links are listed below
 * [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
