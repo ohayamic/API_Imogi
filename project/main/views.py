@@ -16,7 +16,7 @@ def search():
     if form.validate_on_submit():
         return search_results(form.searchterm.data)
     '''lmt = 3
-    tenor_apikey = "G5AGB76O808J"
+    tenor_apikey = "Your_key_here"
     responds = requests.get("https://api.tenor.com/v1/autocomplete?key=%s&q=%s&limit=%s" %(tenor_apikey, form.searchterm.data, lmt)).json()
     url =[]
     for item in responds['results']:
@@ -31,7 +31,7 @@ def search_results(search_query):
 
 def query_API(searchterm):
     # included my API key 
-    tenor_apikey = "G5AGB76O808J"
+    tenor_apikey = "Your_key_here"
     # get url from tenor-gif website
     url = "https://api.tenor.com/v1/search?q=%s&key=%s" % (searchterm, tenor_apikey)
     # extract information from the url and convert it to json file
