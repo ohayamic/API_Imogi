@@ -38,4 +38,4 @@ You're going to use:
   * [Requests Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
 
 Before moving on, make sure to create a developer account and [request an API key](https://tenor.com/gifapi/documentation). 
-   In `views.py` replace "Your API Key" with your actual API key in the code.
+   In `views.py` replace "Your_key_here" with your actual API key in the code.
